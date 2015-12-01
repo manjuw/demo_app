@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>DemoApp|<%= @title %></title>
-  <%= stylesheet_link_tag  'blueprint/screen', :media => 'screen' %>
+  <%= image_tag("log.png"), :alt => 'Sample App' %>
   <%= stylesheet_link_tag  'custom',:media =>'screen' %>
   <%= crsrf_meta_tag %>
 
