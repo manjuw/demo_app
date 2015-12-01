@@ -4,13 +4,13 @@
   <title>DemoApp|<%= @title %></title>
   <%= stylesheet_link_tag  'blueprint/screen', :media => 'screen' %>
   <%= stylesheet_link_tag  'custom',:media =>'screen' %>
-  <%= crsrf_meta_tag %>
+  <%= csrf_meta_tag %>
 
 </head>
 <body>
   <div class="container">
     <%= render 'layouts/header' %>
-	<section class="rount">
+	<section class="round">
            <%= yield %>
 	</section>
     <%= render 'layouts/footer' %>
